@@ -1,0 +1,24 @@
+/* This is a place where final css file should be. */
+
+@import 'bootstrap/bootstrap.scss';
+
+header {
+    margin-top: 50px;
+
+    .site-logo img {
+        width: 220px;
+    }
+
+    ul.menu {
+        line-height: 44px;
+        vertical-align: middle;
+        float: right;
+
+        li {
+            display: inline-block;
+            padding-left: 80px;
+        }
+    }
+}
+
+
