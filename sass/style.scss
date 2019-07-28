@@ -52,8 +52,7 @@ h2 {
     }
 }
 
-p,
-.field__item p {
+p {
     color: #626262;
     font-family: 'Playfair Display', 'serif';
     font-size: 14px;
@@ -75,4 +74,9 @@ div[property="schema:about"] {
     color: #b4ad9e;
     font-size: 14px;
     text-transform: uppercase;
+}
+
+img[property="schema:image"] {
+    width: 100% !important;
+    height: auto;
 }

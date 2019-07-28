@@ -7,18 +7,6 @@
     padding: 15px;
 }
 
-.container-main {
-    width: 1130px;
-    margin: auto;
-    padding: 15px;
-}
-
-.container-content {
-    width: 960px;
-    margin: auto;
-    padding: 15px;
-}
-
 .row::after {
     content: "";
     clear: both;
@@ -27,7 +15,7 @@
   
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 30px;
 }
 
 @media only screen and (min-width: 300px){
@@ -35,9 +23,13 @@
     [class*="col-"] {
         width: 100%;
     }
+    .container-main {width: 100%;}
+    .container-content {width: 100%;}
 }
   
 @media only screen and (min-width: 600px) {
+    .container-main {width: 100%;}
+    .container-content {width: 100%;}
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
@@ -67,4 +59,15 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .container-main {
+        width: 1160px;
+        margin: auto;
+        padding: 30px;
+    }
+    
+    .container-content {
+        width: 990px;
+        margin: auto;
+        padding: 30px;
+    }
 }
