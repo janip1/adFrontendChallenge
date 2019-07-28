@@ -198,3 +198,37 @@ header ul.menu a {
   font-size: 14px;
   text-decoration: none;
 }
+
+/* line 36, ../sass/style.scss */
+h2 {
+  color: #626262;
+  font-family: 'Playfair Display', 'serif';
+  font-size: 30px;
+  font-weight: 400;
+}
+/* line 42, ../sass/style.scss */
+h2 a {
+  color: #626262;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* line 50, ../sass/style.scss */
+p {
+  color: #626262;
+  font-family: 'Playfair Display', 'serif';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 57, ../sass/style.scss */
+.field--type-text-with-summary h2::before {
+  content: '';
+  width: 100px;
+  border-bottom: solid 4px #626262;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: 1;
+}

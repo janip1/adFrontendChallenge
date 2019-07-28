@@ -33,4 +33,33 @@ header {
     }
 }
 
+h2 {
+    color: #626262;
+    font-family: 'Playfair Display', 'serif';
+    font-size: 30px;
+    font-weight: 400;
 
+    a {
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
+
+p {
+    color: #626262;
+    font-family: 'Playfair Display', 'serif';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.field--type-text-with-summary h2::before {
+    content: '';
+    width: 100px;
+    border-bottom: solid 4px #626262;
+    position: absolute;
+    left: 0;
+    top: -5px;
+    z-index: 1;
+}
