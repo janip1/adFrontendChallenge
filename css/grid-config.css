@@ -1,5 +1,3 @@
-/* This is a place where final css file should be. */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap");
 /* line 1, ../sass/grid-config.scss */
 * {
   box-sizing: border-box;
@@ -168,33 +166,4 @@
   .col-12 {
     width: 100%;
   }
-}
-/* put in different file!!!*/
-/* line 8, ../sass/style.scss */
-header {
-  margin-top: 60px;
-}
-/* line 11, ../sass/style.scss */
-header .site-logo img {
-  width: 220px;
-}
-/* line 15, ../sass/style.scss */
-header ul.menu {
-  line-height: 10px;
-  vertical-align: middle;
-  float: right;
-}
-/* line 20, ../sass/style.scss */
-header ul.menu li {
-  display: inline-block;
-  padding-left: 80px;
-}
-/* line 25, ../sass/style.scss */
-header ul.menu a {
-  color: #626262;
-  text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
 }

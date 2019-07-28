@@ -47,21 +47,23 @@
 #}
 <div class="layout-container">
 
-  <header role="banner" class="container">
+  <header role="banner" class="container-main">
+    <div class="container">
         {{ page.header }}
+    </div>
   </header>
 
-  <main role="main">
+  <main role="main" class="container-content">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content">
+    <div class="layout-content" class="row">
       {{ page.content }}
     </div>{# /.layout-content #}
 
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="container-main">
       {{ page.footer }}
     </footer>
   {% endif %}
