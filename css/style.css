@@ -1,5 +1,6 @@
 /* This is a place where final css file should be. */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap");
 /* line 1, ../sass/grid-config.scss */
 * {
   box-sizing: border-box;
@@ -170,26 +171,26 @@
   }
 }
 /* put in different file!!!*/
-/* line 8, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
 header {
-  margin-top: 60px;
+  margin-top: 30px !important;
 }
-/* line 11, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 header .site-logo img {
   width: 220px;
 }
-/* line 15, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 header ul.menu {
   line-height: 10px;
   vertical-align: middle;
   float: right;
 }
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 header ul.menu li {
   display: inline-block;
   padding-left: 80px;
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 header ul.menu a {
   color: #626262;
   text-transform: uppercase;
@@ -199,14 +200,19 @@ header ul.menu a {
   text-decoration: none;
 }
 
-/* line 36, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
+.layout-content {
+  margin-top: 60px;
+}
+
+/* line 41, ../sass/style.scss */
 h2 {
   color: #626262;
   font-family: 'Playfair Display', 'serif';
   font-size: 30px;
   font-weight: 400;
 }
-/* line 42, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 h2 a {
   color: #626262;
   font-family: 'Playfair Display', serif;
@@ -214,21 +220,30 @@ h2 a {
   text-decoration: none;
 }
 
-/* line 50, ../sass/style.scss */
-p {
+/* line 55, ../sass/style.scss */
+p,
+.field__item p {
   color: #626262;
   font-family: 'Playfair Display', 'serif';
   font-size: 14px;
   font-weight: 400;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .field--type-text-with-summary h2::before {
   content: '';
   width: 100px;
   border-bottom: solid 4px #626262;
   position: absolute;
-  left: 0;
-  top: -5px;
+  top: 35px;
   z-index: 1;
+}
+
+/* line 72, ../sass/style.scss */
+div[property="schema:about"] {
+  margin-top: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
 }

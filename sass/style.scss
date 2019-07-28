@@ -4,9 +4,10 @@
 
 /* put in different file!!!*/
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
 
 header {
-    margin-top: 60px;
+    margin-top: 30px !important;
 
     .site-logo img {
         width: 220px;
@@ -33,6 +34,10 @@ header {
     }
 }
 
+.layout-content {
+    margin-top: 60px;
+}
+
 h2 {
     color: #626262;
     font-family: 'Playfair Display', 'serif';
@@ -47,7 +52,8 @@ h2 {
     }
 }
 
-p {
+p,
+.field__item p {
     color: #626262;
     font-family: 'Playfair Display', 'serif';
     font-size: 14px;
@@ -59,7 +65,14 @@ p {
     width: 100px;
     border-bottom: solid 4px #626262;
     position: absolute;
-    left: 0;
-    top: -5px;
+    top: 35px;
     z-index: 1;
+}
+
+div[property="schema:about"] {
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
 }
