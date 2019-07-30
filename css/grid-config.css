@@ -6,17 +6,16 @@
 /* line 5, ../sass/grid-config.scss */
 .container-full {
   width: 100%;
-  padding: 15px;
 }
 
-/* line 10, ../sass/grid-config.scss */
+/* line 9, ../sass/grid-config.scss */
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* line 16, ../sass/grid-config.scss */
+/* line 15, ../sass/grid-config.scss */
 [class*="col-"] {
   float: left;
   padding: 30px;
@@ -24,166 +23,166 @@
 
 @media only screen and (min-width: 300px) {
   /* For mobile phones: */
-  /* line 23, ../sass/grid-config.scss */
+  /* line 22, ../sass/grid-config.scss */
   [class*="col-"] {
     width: 100%;
   }
 
-  /* line 26, ../sass/grid-config.scss */
+  /* line 25, ../sass/grid-config.scss */
   .container-main {
     width: 100%;
   }
 
-  /* line 27, ../sass/grid-config.scss */
+  /* line 26, ../sass/grid-config.scss */
   .container-content {
     width: 100%;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 31, ../sass/grid-config.scss */
+  /* line 30, ../sass/grid-config.scss */
   .container-main {
     width: 100%;
   }
 
-  /* line 32, ../sass/grid-config.scss */
+  /* line 31, ../sass/grid-config.scss */
   .container-content {
     width: 100%;
   }
 
   /* For tablets: */
-  /* line 34, ../sass/grid-config.scss */
+  /* line 33, ../sass/grid-config.scss */
   .col-s-1 {
     width: 8.33%;
   }
 
-  /* line 35, ../sass/grid-config.scss */
+  /* line 34, ../sass/grid-config.scss */
   .col-s-2 {
     width: 16.66%;
   }
 
-  /* line 36, ../sass/grid-config.scss */
+  /* line 35, ../sass/grid-config.scss */
   .col-s-3 {
     width: 25%;
   }
 
-  /* line 37, ../sass/grid-config.scss */
+  /* line 36, ../sass/grid-config.scss */
   .col-s-4 {
     width: 33.33%;
   }
 
-  /* line 38, ../sass/grid-config.scss */
+  /* line 37, ../sass/grid-config.scss */
   .col-s-5 {
     width: 41.66%;
   }
 
-  /* line 39, ../sass/grid-config.scss */
+  /* line 38, ../sass/grid-config.scss */
   .col-s-6 {
     width: 50%;
   }
 
-  /* line 40, ../sass/grid-config.scss */
+  /* line 39, ../sass/grid-config.scss */
   .col-s-7 {
     width: 58.33%;
   }
 
-  /* line 41, ../sass/grid-config.scss */
+  /* line 40, ../sass/grid-config.scss */
   .col-s-8 {
     width: 66.66%;
   }
 
-  /* line 42, ../sass/grid-config.scss */
+  /* line 41, ../sass/grid-config.scss */
   .col-s-9 {
     width: 75%;
   }
 
-  /* line 43, ../sass/grid-config.scss */
+  /* line 42, ../sass/grid-config.scss */
   .col-s-10 {
     width: 83.33%;
   }
 
-  /* line 44, ../sass/grid-config.scss */
+  /* line 43, ../sass/grid-config.scss */
   .col-s-11 {
     width: 91.66%;
   }
 
-  /* line 45, ../sass/grid-config.scss */
+  /* line 44, ../sass/grid-config.scss */
   .col-s-12 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  /* line 50, ../sass/grid-config.scss */
+  /* line 49, ../sass/grid-config.scss */
   .col-1 {
     width: 8.33%;
   }
 
-  /* line 51, ../sass/grid-config.scss */
+  /* line 50, ../sass/grid-config.scss */
   .col-2 {
     width: 16.66%;
   }
 
-  /* line 52, ../sass/grid-config.scss */
+  /* line 51, ../sass/grid-config.scss */
   .col-3 {
     width: 25%;
   }
 
-  /* line 53, ../sass/grid-config.scss */
+  /* line 52, ../sass/grid-config.scss */
   .col-4 {
     width: 33.33%;
   }
 
-  /* line 54, ../sass/grid-config.scss */
+  /* line 53, ../sass/grid-config.scss */
   .col-5 {
     width: 41.66%;
   }
 
-  /* line 55, ../sass/grid-config.scss */
+  /* line 54, ../sass/grid-config.scss */
   .col-6 {
     width: 50%;
   }
 
-  /* line 56, ../sass/grid-config.scss */
+  /* line 55, ../sass/grid-config.scss */
   .col-7 {
     width: 58.33%;
   }
 
-  /* line 57, ../sass/grid-config.scss */
+  /* line 56, ../sass/grid-config.scss */
   .col-8 {
     width: 66.66%;
   }
 
-  /* line 58, ../sass/grid-config.scss */
+  /* line 57, ../sass/grid-config.scss */
   .col-9 {
     width: 75%;
   }
 
-  /* line 59, ../sass/grid-config.scss */
+  /* line 58, ../sass/grid-config.scss */
   .col-10 {
     width: 83.33%;
   }
 
-  /* line 60, ../sass/grid-config.scss */
+  /* line 59, ../sass/grid-config.scss */
   .col-11 {
     width: 91.66%;
   }
 
-  /* line 61, ../sass/grid-config.scss */
+  /* line 60, ../sass/grid-config.scss */
   .col-12 {
     width: 100%;
   }
 
-  /* line 62, ../sass/grid-config.scss */
+  /* line 61, ../sass/grid-config.scss */
   .container-main {
-    width: 1160px;
+    width: 1140px;
     margin: auto;
-    padding: 30px;
+    padding: 15px;
   }
 
-  /* line 68, ../sass/grid-config.scss */
+  /* line 67, ../sass/grid-config.scss */
   .container-content {
-    width: 990px;
+    width: 970px;
     margin: auto;
-    padding: 30px;
+    padding: 15px;
   }
 }

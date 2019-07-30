@@ -4,7 +4,6 @@
 
 .container-full {
     width: 100%;
-    padding: 15px;
 }
 
 .row::after {
@@ -60,14 +59,14 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     .container-main {
-        width: 1160px;
+        width: 1140px;
         margin: auto;
-        padding: 30px;
+        padding: 15px;
     }
     
     .container-content {
-        width: 990px;
+        width: 970px;
         margin: auto;
-        padding: 30px;
+        padding: 15px;
     }
 }

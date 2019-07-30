@@ -55,17 +55,30 @@
 
   <main role="main" class="container-content">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
-
-    <div class="layout-content" class="row">
+    {% if is_front %}
+    <div class="layout-content row">
       {{ page.content }}
     </div>{# /.layout-content #}
+    {% else %}
+    <div class="layout-content row">
+      <div class="col-8">
+        {{page.content}}
+      </div>
+
+      <div class="col-4">
+        {{page.sidebar_second}}
+      </div>
+    </div>
+    {% endif %}
 
   </main>
 
   {% if page.footer %}
-    <footer role="contentinfo" class="container-main">
-      {{ page.footer }}
-    </footer>
+    <div id="footer-container" class="container-full">
+      <footer role="contentinfo" class="container-main">
+        {{ page.footer }}
+      </footer>
+    </div>
   {% endif %}
 
 </div>{# /.layout-container #}
