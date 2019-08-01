@@ -279,6 +279,28 @@ header ul.menu a {
   padding-top: 100px;
 }
 
+/* line 45, ../sass/_header.scss */
+.menu-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* line 51, ../sass/_header.scss */
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: black;
+  z-index: 99;
+}
+
+/* line 60, ../sass/_header.scss */
+.expand {
+  display: block !important;
+}
+
 /* Content style */
 /* line 3, ../sass/_content.scss */
 .layout-content {
@@ -456,26 +478,4 @@ footer #block-footercreated p {
 /* line 32, ../sass/_footer.scss */
 footer #block-footercreated p a {
   text-decoration: none;
-}
-
-/* line 17, ../sass/style.scss */
-.menu-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-/* line 23, ../sass/style.scss */
-.menu-btn span {
-  display: block;
-  width: 19px;
-  height: 3px;
-  margin: 4px 0;
-  background: black;
-  z-index: 99;
-}
-
-/* line 32, ../sass/style.scss */
-.expand {
-  display: block !important;
 }
