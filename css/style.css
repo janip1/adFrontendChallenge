@@ -1,4 +1,4 @@
-/* This is a place where final css file should be. */
+/* CSS config */
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap");
 /* line 1, ../sass/grid-config.scss */
@@ -21,7 +21,7 @@
 /* line 15, ../sass/grid-config.scss */
 [class*="col-"] {
   float: left;
-  padding: 30px;
+  padding: 25px;
 }
 
 @media only screen and (min-width: 300px) {
@@ -36,176 +36,226 @@
     width: 100%;
   }
 
-  /* line 26, ../sass/grid-config.scss */
+  /* line 28, ../sass/grid-config.scss */
   .container-content {
     width: 100%;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 30, ../sass/grid-config.scss */
+  /* line 34, ../sass/grid-config.scss */
   .container-main {
     width: 100%;
   }
 
-  /* line 31, ../sass/grid-config.scss */
+  /* line 37, ../sass/grid-config.scss */
   .container-content {
     width: 100%;
   }
 
   /* For tablets: */
-  /* line 33, ../sass/grid-config.scss */
+  /* line 41, ../sass/grid-config.scss */
   .col-s-1 {
     width: 8.33%;
   }
 
-  /* line 34, ../sass/grid-config.scss */
+  /* line 44, ../sass/grid-config.scss */
   .col-s-2 {
     width: 16.66%;
   }
 
-  /* line 35, ../sass/grid-config.scss */
+  /* line 47, ../sass/grid-config.scss */
   .col-s-3 {
     width: 25%;
   }
 
-  /* line 36, ../sass/grid-config.scss */
+  /* line 50, ../sass/grid-config.scss */
   .col-s-4 {
     width: 33.33%;
   }
 
-  /* line 37, ../sass/grid-config.scss */
+  /* line 53, ../sass/grid-config.scss */
   .col-s-5 {
     width: 41.66%;
   }
 
-  /* line 38, ../sass/grid-config.scss */
+  /* line 56, ../sass/grid-config.scss */
   .col-s-6 {
     width: 50%;
   }
 
-  /* line 39, ../sass/grid-config.scss */
+  /* line 59, ../sass/grid-config.scss */
   .col-s-7 {
     width: 58.33%;
   }
 
-  /* line 40, ../sass/grid-config.scss */
+  /* line 62, ../sass/grid-config.scss */
   .col-s-8 {
     width: 66.66%;
   }
 
-  /* line 41, ../sass/grid-config.scss */
+  /* line 65, ../sass/grid-config.scss */
   .col-s-9 {
     width: 75%;
   }
 
-  /* line 42, ../sass/grid-config.scss */
+  /* line 68, ../sass/grid-config.scss */
   .col-s-10 {
     width: 83.33%;
   }
 
-  /* line 43, ../sass/grid-config.scss */
+  /* line 71, ../sass/grid-config.scss */
   .col-s-11 {
     width: 91.66%;
   }
 
-  /* line 44, ../sass/grid-config.scss */
+  /* line 74, ../sass/grid-config.scss */
   .col-s-12 {
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   /* For desktop: */
-  /* line 49, ../sass/grid-config.scss */
+  /* line 81, ../sass/grid-config.scss */
   .col-1 {
     width: 8.33%;
   }
 
-  /* line 50, ../sass/grid-config.scss */
+  /* line 84, ../sass/grid-config.scss */
   .col-2 {
     width: 16.66%;
   }
 
-  /* line 51, ../sass/grid-config.scss */
+  /* line 87, ../sass/grid-config.scss */
   .col-3 {
     width: 25%;
   }
 
-  /* line 52, ../sass/grid-config.scss */
+  /* line 90, ../sass/grid-config.scss */
   .col-4 {
     width: 33.33%;
   }
 
-  /* line 53, ../sass/grid-config.scss */
+  /* line 93, ../sass/grid-config.scss */
   .col-5 {
     width: 41.66%;
   }
 
-  /* line 54, ../sass/grid-config.scss */
+  /* line 96, ../sass/grid-config.scss */
   .col-6 {
     width: 50%;
   }
 
-  /* line 55, ../sass/grid-config.scss */
+  /* line 99, ../sass/grid-config.scss */
   .col-7 {
     width: 58.33%;
   }
 
-  /* line 56, ../sass/grid-config.scss */
+  /* line 102, ../sass/grid-config.scss */
   .col-8 {
     width: 66.66%;
   }
 
-  /* line 57, ../sass/grid-config.scss */
+  /* line 105, ../sass/grid-config.scss */
   .col-9 {
     width: 75%;
   }
 
-  /* line 58, ../sass/grid-config.scss */
+  /* line 108, ../sass/grid-config.scss */
   .col-10 {
     width: 83.33%;
   }
 
-  /* line 59, ../sass/grid-config.scss */
+  /* line 111, ../sass/grid-config.scss */
   .col-11 {
     width: 91.66%;
   }
 
-  /* line 60, ../sass/grid-config.scss */
+  /* line 114, ../sass/grid-config.scss */
   .col-12 {
     width: 100%;
   }
 
-  /* line 61, ../sass/grid-config.scss */
+  /* line 117, ../sass/grid-config.scss */
   .container-main {
-    width: 1140px;
+    width: 1180px;
     margin: auto;
-    padding: 15px;
+    padding: 25px;
   }
 
-  /* line 67, ../sass/grid-config.scss */
+  /* line 122, ../sass/grid-config.scss */
   .container-content {
-    width: 970px;
+    width: 1000px;
     margin: auto;
-    padding: 15px;
+    padding: 25px;
   }
 }
-/* put in different file!!!*/
-/* line 10, ../sass/style.scss */
+/* CSS colors variables */
+/* Fonts import and markup */
+/* line 9, ../sass/_fonts.scss */
+h1,
+h2 {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+/* line 15, ../sass/_fonts.scss */
+h1 a,
+h2 a {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* line 23, ../sass/_fonts.scss */
+p {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 30, ../sass/_fonts.scss */
+a {
+  color: #000;
+}
+
+/* line 34, ../sass/_fonts.scss */
+.field--type-text-with-summary h2::before {
+  content: '';
+  width: 100px;
+  border-bottom: solid 4px #626262;
+  position: absolute;
+  margin-top: -15px;
+  z-index: 0;
+}
+
+/* Header markup */
+/* line 3, ../sass/_header.scss */
+header {
+  height: 140px;
+}
+/* line 5, ../sass/_header.scss */
 header .site-logo img {
   width: 220px;
 }
-/* line 13, ../sass/style.scss */
+/* line 8, ../sass/_header.scss */
+header nav {
+  float: right;
+}
+/* line 11, ../sass/_header.scss */
 header ul.menu {
   line-height: 10px;
   vertical-align: middle;
   float: right;
 }
-/* line 17, ../sass/style.scss */
+/* line 15, ../sass/_header.scss */
 header ul.menu li {
   display: inline-block;
   padding-left: 80px;
 }
-/* line 21, ../sass/style.scss */
+/* line 19, ../sass/_header.scss */
 header ul.menu a {
   color: #626262;
   text-transform: uppercase;
@@ -215,129 +265,146 @@ header ul.menu a {
   text-decoration: none;
 }
 
-/* line 32, ../sass/style.scss */
-.layout-content {
-  margin-top: 10px;
-}
-
-/* line 36, ../sass/style.scss */
-h1,
-h2 {
-  color: #626262;
-  font-family: 'Playfair Display', 'serif';
-  font-size: 30px;
-  font-weight: 400;
-}
-/* line 42, ../sass/style.scss */
-h1 a,
-h2 a {
-  color: #626262;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-/* line 50, ../sass/style.scss */
-p {
-  color: #626262;
-  font-family: 'Playfair Display', 'serif';
-  font-size: 14px;
-  font-weight: 400;
-}
-
-/* line 57, ../sass/style.scss */
-a {
-  color: #000;
-}
-
-/* line 61, ../sass/style.scss */
-.field--type-text-with-summary h2::before {
-  content: '';
-  width: 100px;
-  border-bottom: solid 4px #626262;
-  position: absolute;
-  top: 35px;
+/* line 30, ../sass/_header.scss */
+.fixed {
+  position: fixed;
   z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 5px 0px #919191;
+  -moz-box-shadow: 0px 2px 5px 0px #919191;
+  box-shadow: 0px 2px 5px 0px #919191;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 42, ../sass/_header.scss */
+.fixed + .container-content {
+  padding-top: 100px;
+}
+
+/* Content style */
+/* line 3, ../sass/_content.scss */
+.layout-content {
+  margin-top: 30px;
+}
+
+/* line 7, ../sass/_content.scss */
 .views-row {
   min-height: 600px;
   height: 600px;
 }
 
-/* line 75, ../sass/style.scss */
+/* line 12, ../sass/_content.scss */
 div[property="schema:about"],
 #block-views-block-content-recent-block-1 h2 {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", "sans-serif";
   color: #b4ad9e;
   font-size: 14px;
   text-transform: uppercase;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 22, ../sass/_content.scss */
 img[property="schema:image"] {
   width: 100% !important;
   height: auto;
 }
 
-/* line 90, ../sass/style.scss */
-.text-left {
-  text-align: left;
-  float: left;
-}
-
-/* line 95, ../sass/style.scss */
-#footer-container {
-  background-color: #f0f0f0;
-  margin-top: 110px;
-}
-
-/* line 100, ../sass/style.scss */
-#footer-container > .container-main {
-  padding: 0;
-}
-
-/* line 105, ../sass/style.scss */
-footer ul.menu {
-  line-height: 10px;
-  vertical-align: middle;
-  float: left;
-}
-/* line 109, ../sass/style.scss */
-footer ul.menu li {
-  display: inline-block;
-  padding-right: 30px;
-}
-/* line 113, ../sass/style.scss */
-footer ul.menu a {
-  color: #000;
-  font-family: 'Playfair Display', serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-decoration: none;
-}
-/* line 121, ../sass/style.scss */
-footer #block-footercreated p {
-  float: right;
-}
-
-/* line 128, ../sass/style.scss */
+/* Sidebar */
+/* line 32, ../sass/_content.scss */
 .views-field-title .field-content a {
   text-decoration: none;
   font-size: 16px;
   color: #626262;
 }
 
-/* line 136, ../sass/style.scss */
+/* line 41, ../sass/_content.scss */
+.item-list ul {
+  list-style: none;
+}
+/* line 44, ../sass/_content.scss */
+.item-list li::before {
+  content: "\2022";
+  color: #b4ad9e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  padding-right: 12px;
+}
+/* line 53, ../sass/_content.scss */
 .item-list li {
-  margin: 0 0 0 1em !important;
+  display: inline-flex;
+  margin: 0 !important;
   padding: 14px;
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 63, ../sass/_content.scss */
 .views-field-changed {
   display: none;
+}
+
+/* line 67, ../sass/_content.scss */
+figure {
+  margin: 0;
+}
+
+/* line 71, ../sass/_content.scss */
+figcaption {
+  padding: 25px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+/* line 78, ../sass/_content.scss */
+#block-sidebarbanner {
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Footer style */
+/* line 3, ../sass/_footer.scss */
+#footer-container {
+  background-color: #f0f0f0;
+  position: absolute;
+  margin-top: 110px;
+}
+
+/* line 9, ../sass/_footer.scss */
+#footer-container > .container-main {
+  padding: 0;
+}
+
+/* line 14, ../sass/_footer.scss */
+footer ul.menu {
+  line-height: 10px;
+  vertical-align: middle;
+  float: left;
+}
+/* line 18, ../sass/_footer.scss */
+footer ul.menu li {
+  display: inline-block;
+  padding-right: 30px;
+}
+/* line 22, ../sass/_footer.scss */
+footer ul.menu a {
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+}
+/* line 30, ../sass/_footer.scss */
+footer #block-footercreated p {
+  float: right;
+}
+/* line 32, ../sass/_footer.scss */
+footer #block-footercreated p a {
+  text-decoration: none;
 }

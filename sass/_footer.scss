@@ -1,0 +1,36 @@
+/* Footer style */
+
+#footer-container {
+    background-color: $secondary;
+    position: absolute;
+    margin-top: 110px;
+}
+
+#footer-container>.container-main {
+    padding: 0;
+}
+
+footer {
+    ul.menu {
+        line-height: 10px;
+        vertical-align: middle;
+        float: left;
+        li {
+            display: inline-block;
+            padding-right: 30px;
+        }
+        a {
+            color: $black;
+            font-family: $font-primary;
+            font-weight: 400;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    }
+    #block-footercreated p {
+        float: right;
+        a {
+            text-decoration: none;
+        }
+    }
+}

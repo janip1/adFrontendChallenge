@@ -4,6 +4,7 @@ global-styling:
     theme:
       css/style.css: {}
 
+global-scripts:
   js:
     js/scripts.js: {}
 

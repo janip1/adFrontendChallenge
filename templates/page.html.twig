@@ -47,9 +47,13 @@
 #}
 <div class="layout-container">
 
-  <header role="banner" class="container-main">
+  <header role="banner" id="header" class="container-main">
     <div class="container">
-        {{ page.header }}
+      <div class="row">
+        <div class="col-12 col-s-12">
+          {{ page.header }}
+        </div>
+      </div>
     </div>
   </header>
 
@@ -61,11 +65,11 @@
     </div>{# /.layout-content #}
     {% else %}
     <div class="layout-content row">
-      <div class="col-8">
+      <div class="col-8 col-s-8">
         {{page.content}}
       </div>
 
-      <div class="col-4">
+      <div class="col-4 col-s-4">
         {{page.sidebar_second}}
       </div>
     </div>

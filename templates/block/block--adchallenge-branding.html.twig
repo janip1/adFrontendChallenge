@@ -14,7 +14,6 @@
 #}
 
 {% block content %}
-<div class="col-4 col-s-4">
   {% if site_logo %}
     <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo">
       <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
@@ -28,5 +27,4 @@
   {% if site_slogan %}
     <div class="site-slogan">{{ site_slogan }}</div>
   {% endif %}
-</div>
 {% endblock %}

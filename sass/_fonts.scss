@@ -1,0 +1,41 @@
+/* Fonts import and markup */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
+$font-primary: 'Playfair Display',
+serif;
+$font-secondary: 'Ubuntu',
+'sans-serif';
+h1,
+h2 {
+    color: $primary;
+    font-family: $font-primary;
+    font-size: 30px;
+    font-weight: 400;
+    a {
+        color: $primary;
+        font-family: $font-primary;
+        font-weight: 400;
+        text-decoration: none;
+    }
+}
+
+p {
+    color: $primary;
+    font-family: $font-primary;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    color: #000;
+}
+
+.field--type-text-with-summary h2::before {
+    content: '';
+    width: 100px;
+    border-bottom: solid 4px $primary;
+    position: absolute;
+    margin-top: -15px;
+    z-index: 0;
+}
